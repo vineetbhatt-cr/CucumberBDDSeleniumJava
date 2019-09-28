@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="0.12692">
+<testcase classname="Free CRM application testing" name="Login with correct username and correct password" time="0.126656">
+<system-out><![CDATA[Given This is a valid login test............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Login with incorrect username and correct password" time="0.000042">
+<system-out><![CDATA[Given This is a invalid login test..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Create a deal" time="0.000042">
+<system-out><![CDATA[Given This is a deal test case..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Create a tasks" time="0.000046">
+<system-out><![CDATA[Given This is a tasks test case.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Verify left panel links" time="0.000042">
+<system-out><![CDATA[Given clicking on left panel links..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Search a case" time="0.000042">
+<system-out><![CDATA[Given This is a search case test............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Search a task" time="0.00005">
+<system-out><![CDATA[Given This is a search task test............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

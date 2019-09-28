@@ -1,0 +1,234 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login with correct username and correct password",
+        "description": "",
+        "id": "free-crm-application-testing;login-with-correct-username-and-correct-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 126655800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "This is a valid login test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_valid_login_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 4,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Login with incorrect username and correct password",
+        "description": "",
+        "id": "free-crm-application-testing;login-with-incorrect-username-and-correct-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "This is a invalid login test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_invalid_login_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Create a deal",
+        "description": "",
+        "id": "free-crm-application-testing;create-a-deal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "This is a deal test case",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_deal_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 16,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Create a tasks",
+        "description": "",
+        "id": "free-crm-application-testing;create-a-tasks",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "This is a tasks test case",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_tasks_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Verify left panel links",
+        "description": "",
+        "id": "free-crm-application-testing;verify-left-panel-links",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clicking on left panel links",
+            "match": {
+              "location": "TaggingStepDefinition.clicking_on_left_panel_links()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 28,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Search a case",
+        "description": "",
+        "id": "free-crm-application-testing;search-a-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "This is a search case test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_search_case_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 40,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Search a task",
+        "description": "",
+        "id": "free-crm-application-testing;search-a-task",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "This is a search task test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_search_task_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 44,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 44,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM application testing",
+    "description": "",
+    "id": "free-crm-application-testing",
+    "keyword": "Feature",
+    "uri": "C:/Vineet/Selenium_Projects/FreeCRMBDDFramework/src/main/java/Features/tagging.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]
